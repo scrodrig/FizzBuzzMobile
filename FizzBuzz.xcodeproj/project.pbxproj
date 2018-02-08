@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		3132D0912029FD5800706A4D /* BrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3132D0902029FD5800706A4D /* BrainTests.swift */; };
 		3132D097202A00B300706A4D /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3132D096202A00B300706A4D /* Brain.swift */; };
-		3132D099202A0D7B00706A4D /* FizzBuzzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3132D098202A0D7B00706A4D /* FizzBuzzUITests.swift */; };
 		31698339202B465300BB8D0A /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31698338202B465300BB8D0A /* GameTests.swift */; };
 		3169833D202B4C1C00BB8D0A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3169833C202B4C1C00BB8D0A /* Game.swift */; };
 		3169833F202BA68A00BB8D0A /* ViewControllerUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3169833E202BA68A00BB8D0A /* ViewControllerUnitTests.swift */; };
+		31698341202BFD7800BB8D0A /* ViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31698340202BFD7800BB8D0A /* ViewControllerUITests.swift */; };
 		31E71C9E2029FC0C006EDA23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E71C9D2029FC0C006EDA23 /* AppDelegate.swift */; };
 		31E71CA02029FC0C006EDA23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E71C9F2029FC0C006EDA23 /* ViewController.swift */; };
 		31E71CA32029FC0C006EDA23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E71CA12029FC0C006EDA23 /* Main.storyboard */; };
@@ -40,10 +40,10 @@
 /* Begin PBXFileReference section */
 		3132D0902029FD5800706A4D /* BrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTests.swift; sourceTree = "<group>"; };
 		3132D096202A00B300706A4D /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
-		3132D098202A0D7B00706A4D /* FizzBuzzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzUITests.swift; sourceTree = "<group>"; };
 		31698338202B465300BB8D0A /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
 		3169833C202B4C1C00BB8D0A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		3169833E202BA68A00BB8D0A /* ViewControllerUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUnitTests.swift; sourceTree = "<group>"; };
+		31698340202BFD7800BB8D0A /* ViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUITests.swift; sourceTree = "<group>"; };
 		31E71C9A2029FC0C006EDA23 /* FizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E71C9D2029FC0C006EDA23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31E71C9F2029FC0C006EDA23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				31E71CBF2029FC0C006EDA23 /* Info.plist */,
-				3132D098202A0D7B00706A4D /* FizzBuzzUITests.swift */,
+				31698340202BFD7800BB8D0A /* ViewControllerUITests.swift */,
 			);
 			path = FizzBuzzUITests;
 			sourceTree = "<group>";
@@ -294,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3132D099202A0D7B00706A4D /* FizzBuzzUITests.swift in Sources */,
+				31698341202BFD7800BB8D0A /* ViewControllerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +445,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T26366CZ44;
 				INFOPLIST_FILE = FizzBuzz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Thoughtworks.FizzBuzz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -459,7 +461,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T26366CZ44;
 				INFOPLIST_FILE = FizzBuzz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Thoughtworks.FizzBuzz;
 				PRODUCT_NAME = "$(TARGET_NAME)";

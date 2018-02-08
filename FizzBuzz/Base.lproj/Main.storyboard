@@ -39,7 +39,7 @@
                                 <color key="textColor" red="0.90980392160000001" green="0.27058823529999998" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mfc-TH-q5Q">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mfc-TH-q5Q" userLabel="GameView">
                                 <rect key="frame" x="40" y="171" width="334" height="414"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uR0-hT-MuZ">
@@ -50,19 +50,19 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEU-aL-Kb3">
-                                        <rect key="frame" x="172.66666666666669" y="0.0" width="160.66666666666669" height="198.66666666666666"/>
+                                        <rect key="frame" x="172.33333333333331" y="0.0" width="161.33333333333331" height="198.66666666666666"/>
                                         <state key="normal" image="champagne" backgroundImage="button_border">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mSA-q1-rNU">
-                                        <rect key="frame" x="0.0" y="215" width="160.66666666666666" height="198.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="214.66666666666669" width="160.66666666666666" height="199"/>
                                         <state key="normal" image="lightning" backgroundImage="button_border">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgL-Bf-C5w">
-                                        <rect key="frame" x="172.66666666666669" y="215" width="160.66666666666669" height="198.66666666666663"/>
+                                        <rect key="frame" x="172.33333333333331" y="214.66666666666669" width="161.33333333333331" height="199"/>
                                         <state key="normal" image="space" backgroundImage="button_border">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -91,13 +91,13 @@
                         </subviews>
                         <color key="backgroundColor" red="0.16862745098039217" green="0.1803921568627451" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="width" secondItem="mfc-TH-q5Q" secondAttribute="height" multiplier="1:1" id="ItC-4P-RZX"/>
-                            <constraint firstItem="mfc-TH-q5Q" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Jfq-qC-dYf"/>
-                            <constraint firstItem="mfc-TH-q5Q" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Mxw-um-rVE"/>
+                            <constraint firstItem="mfc-TH-q5Q" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="IuX-Uv-tk4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="width" secondItem="mfc-TH-q5Q" secondAttribute="height" multiplier="1:1" id="MHs-cO-3F7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TQ2-vn-iax" secondAttribute="trailing" constant="20" id="QZv-y5-dpZ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mfc-TH-q5Q" secondAttribute="trailing" constant="40" id="Uj8-Q7-esB"/>
+                            <constraint firstItem="mfc-TH-q5Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="RCY-V0-RvC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eVD-wa-ybX" secondAttribute="trailing" constant="20" id="ZrB-fZ-rgr"/>
-                            <constraint firstItem="mfc-TH-q5Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="hqq-ks-jrq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mfc-TH-q5Q" secondAttribute="trailing" constant="40" id="dUR-b3-oTC"/>
+                            <constraint firstItem="mfc-TH-q5Q" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jgS-mz-h6g"/>
                             <constraint firstItem="TQ2-vn-iax" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mj7-Yt-g8n"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eVD-wa-ybX" secondAttribute="bottom" constant="20" id="moz-OF-gkE"/>
                         </constraints>
